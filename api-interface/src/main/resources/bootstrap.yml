@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: api-interface
+  profiles:
+    active: prod
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      config:
+        file-extension: yaml
+        namespace: 4c66127b-49f3-462c-837c-15fc5f1843d0
+        group: Api_Project
+      discovery:
+        namespace: 4c66127b-49f3-462c-837c-15fc5f1843d0
+      password: nacos
+
+
+

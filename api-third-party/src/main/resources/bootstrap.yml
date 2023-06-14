@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: api-third-party
+  profiles:
+    active: prod  #生成环境未prod ，开发环境为dev
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      config:
+        file-extension: yaml
+        namespace: 4c66127b-49f3-462c-837c-15fc5f1843d0
+        group: Api_Project
+      discovery:
+        namespace: 4c66127b-49f3-462c-837c-15fc5f1843d0
+      password: nacos
