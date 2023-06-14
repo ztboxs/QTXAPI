@@ -63,20 +63,20 @@ order:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://106.13.211.93:6612/qtx_api
-    username: qtx_api
-    password: HwiM5dWhniGNtPGH
+    url: jdbc:mysql:///qtx_api
+    username: 
+    password: 
   rabbitmq:
-    host: 106.13.211.93
+    host: 3
     virtual-host: / # 虚拟主机
     port: 5672
     username: user
-    password: wtkyzt0511 #rabbit mq 密码
+    password:  #rabbit mq 密码
 
 
 
    redis:
      port: 6379
-     host: 106.13.211.93
+     host: 
      database: 0
-     password: yztadmin18776631021 #redis 密码
+     password:  #redis 密码
